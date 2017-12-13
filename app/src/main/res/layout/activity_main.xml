@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flip.pushsample.MainActivity">
+
+    <Button
+        android:id="@+id/push_basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Push"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/push_basic_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Push" />
+
+    <Button
+        android:id="@+id/push_rich_big_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rich Push - Big Picture" />
+
+    <Button
+        android:id="@+id/push_rich_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rich push - Media"/>
+
+    <Button
+        android:id="@+id/push_rich_remote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rich push - Remote View" />
+
+    <Button
+        android:id="@+id/push_rich_remote_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rich push - Remote View" />
+
+</android.support.constraint.ConstraintLayout>
